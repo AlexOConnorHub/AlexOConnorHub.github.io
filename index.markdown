@@ -1,6 +1,12 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: "Scoreboard"
+description: "Scoreboard for a Git CTF"
 ---
+
+## Scoreboard
+
+- [x] Working site
+- [ ] Allow `.csv` file to be aquired from a URL
+- [ ] Autogenerate scoreboard from `.csv` file
+- [ ] Maybe an action triggered from PR to change `.csv` from admin
