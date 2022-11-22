@@ -11,7 +11,7 @@ let render_projects = (slug) => {
     // TODO: Add my projects
     let projects_obj = [
         {
-            image: 'assets/images/chat-site.jpg',
+            image: 'assets/images/chat-site.png',
             link: 'https://github.com/AlexOConnorHub/python-website',
             title: 'Python Chat Website',
             demo: false,
