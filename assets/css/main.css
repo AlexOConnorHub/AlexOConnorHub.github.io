@@ -137,7 +137,7 @@ img {
   display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
-  grid-gap: 20px;
+  grid-gap: 70px;
 }
 
 .technical-skills {
