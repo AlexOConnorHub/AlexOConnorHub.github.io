@@ -2,6 +2,8 @@ body {
   min-width: 360px;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+  background-color: #131516;
+  color: #d8d4cf;
 }
 
 img {
@@ -136,8 +138,8 @@ img {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 40% 60%;
-      grid-template-columns: 40% 60%;
-  grid-gap: 70px;
+      grid-template-columns: 45% 55%;
+  grid-gap: 20px;
 }
 
 .technical-skills {
@@ -428,7 +430,7 @@ img {
 }
 
 a {
-  color: #222;
+  color: #6ebbff;;
 }
 
 .extra-links {
