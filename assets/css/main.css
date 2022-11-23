@@ -233,7 +233,7 @@ img {
 
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
-  /* color: #404040; */
+  color: #404040;
 }
 
 .pt-sans-font {
@@ -302,7 +302,7 @@ img {
   padding: 10px;
   -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
-  color: #222;
+  color: rgb(194, 190, 190);
 }
 
 .project-title {
