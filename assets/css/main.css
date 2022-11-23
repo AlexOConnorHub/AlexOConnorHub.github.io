@@ -13,7 +13,7 @@ img {
 
 .head {
 
-  color: #fff;
+  /* color: #fff; */
   min-height: 100vh;
 
   display: -webkit-box;
@@ -84,7 +84,7 @@ img {
 .head-punchline {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   text-align: center;
-  color: #fff;
+  /* color: #fff; */
   margin-top: 10px;
   font-size: 20px;
   font-size: 1.25rem;
@@ -198,7 +198,6 @@ img {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-size: 2.5rem;
-  color: #222;
   font-weight: bold;
 }
 
@@ -213,15 +212,15 @@ img {
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .section-wrapper:nth-child(odd) .skills-subsection {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .section-wrapper:nth-child(odd) .paragraph-text {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .paragraph-text {
@@ -229,12 +228,12 @@ img {
   font-size: 20.8px;
   font-size: 1.3rem;
   margin: 30px auto;
-  color: #404040;
+  /* color: #404040; */
 }
 
 .paragraph-text-normal {
   font-family: 'PT Sans', sans-serif;
-  color: #404040;
+  /* color: #404040; */
 }
 
 .pt-sans-font {
@@ -281,7 +280,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   min-height: 35px;
-  color: #fff;
+  /* color: #fff; */
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
 
   background: url(../images/background.png);
