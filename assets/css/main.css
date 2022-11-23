@@ -580,3 +580,7 @@ a {
     bottom: 15px;
   }
 }
+
+.white-button-hover {
+  background-color: #757373;
+}
