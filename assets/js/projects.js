@@ -8,11 +8,6 @@ let render_projects = (slug) => {
 
     $('.white-button-selector').removeClass('white-button-hover');
     $(`#${slug}`).addClass('white-button-hover');
-    /*
-      Projects:
-        MIPS Processor - VHDL
-        https://github.com/AlexOConnorHub/8-puzzle-search
-    */
     let projects_obj = [
         {
             title: 'Virtual Midi Controller',
