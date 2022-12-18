@@ -8,16 +8,83 @@ let render_projects = (slug) => {
 
     $('.white-button-selector').removeClass('white-button-hover');
     $(`#${slug}`).addClass('white-button-hover');
-    // TODO: Add my projects
+    /*
+      Projects:
+        MIPS Processor - VHDL
+        https://github.com/AlexOConnorHub/8-puzzle-search
+    */
     let projects_obj = [
         {
+            title: 'Virtual Midi Controller',
+            description: "Creates virtual MIDI device and allows user to control it with a GUI.",
+            image: 'https://github.com/AlexOConnorHub/Virtual_Midi_Controller/blob/master/images/main_screen.png?raw=true',
+            link: 'https://github.com/AlexOConnorHub/Virtual_Midi_Controller',
+            technologies: ['Python', 'Tkinter', 'MIDI'],
+            categories: ['featured'],
+            demo: false,
+        },
+        {
+            title: '8 Puzzle Search',
+            description: "Searches for solution to 8 puzzle using a variety of algorithms and heuristics.",
+            image: 'https://github.com/AlexOConnorHub/8-puzzle-search/blob/master/images/gui.png?raw=true',
+            link: 'https://github.com/AlexOConnorHub/8-puzzle-search',
+            technologies: ['Python', 'AI', 'Algorithms'],
+            categories: ['featured', 'other'],
+            demo: false,
+        },
+        {
+            title: 'Python Chat Website',
+            description: "Bottle web chat application.",
             image: 'assets/images/chat-site.png',
             link: 'https://github.com/AlexOConnorHub/python-website',
-            title: 'Python Chat Website',
-            demo: false,
             technologies: ['Bottle', 'Javascript', 'Python'],
-            description: "Bottle web chat application.",
-            categories: ['featured', 'webdev']
+            categories: ['webdev'],
+            demo: false,
+        },
+        {
+            title: 'Go Fish Server/Firefox Extension',
+            description: "Firefox extension that allows user to play Go Fish with others via a server.",
+            image: 'https://github.com/AlexOConnorHub/go-fish-firefox/blob/master/icons/icon-96.png?raw=true',
+            link: 'https://github.com/AlexOConnorHub/kvarteto-server',
+            technologies: ['Bottle', 'Javascript', 'Python', 'Firefox'],
+            categories: ['webdev'],
+            demo: false,
+        },
+        {
+            title: 'GitCTF',
+            description: "Expanded a Git based CTF platform.",
+            // image: 'assets/images/chat-site.png',
+            link: 'https://github.com/AlexOConnorHub/GitCTF',
+            technologies: ['Python', 'Git', 'Github Actions', 'Docker'],
+            categories: ['featured', 'security', 'webdev'],
+            demo: false,
+        },
+        {
+            title: 'JS-Lox',
+            description: "Interpreter for Lox programming language, written in Javascript.",
+            // image: 'assets/images/chat-site.png',
+            link: 'https://github.com/AlexOConnorHub/js-lox-1',
+            technologies: ['Javascript', 'Lox'],
+            categories: ['other'],
+            demo: false,
+        },
+        {
+            title: 'Z-BF',
+            description: "Interpreter for Brainfuck programming language, written in Z-Lang.",
+            // image: 'assets/images/chat-site.png',
+            link: 'https://github.com/AlexOConnorHub/z-bf',
+            technologies: ['Javascript', 'Brainfuck', 'Z-Lang'],
+            categories: ['other'],
+            demo: false,
+        },
+        {
+            title: 'MIPS Processor',
+            description: "MIPS processor written in VHDL.",
+            // image: 'assets/images/chat-site.png',
+            link: 'https://github.com/AlexOConnorHub/mips-processor',
+            technologies: ['VHDL', 'MIPS'],
+            categories: ['featured', 'other'],
+            demo: false,
         },
     ]
 
