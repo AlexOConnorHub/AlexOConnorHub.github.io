@@ -10,6 +10,15 @@ let render_projects = (slug) => {
     $(`#${slug}`).addClass('white-button-hover');
     let projects_obj = [
         {
+            title: "Auto Myself",
+            description: "An offline first app to track vehicle maintenance.",
+            image: 'https://raw.githubusercontent.com/AlexOConnorHub/Auto-Myself/refs/heads/main/assets/app-icon-android.png',
+            link: 'https://github.com/AlexOConnorHub/Auto-Myself',
+            technologies: ['React Native', 'Expo', 'SQLite'],
+            categories: ['other', 'featured'],
+            demo: 'https://play.google.com/store/apps/details?id=com.anonymous.MyCarTotalControl',
+        },
+        {
             title: 'Virtual Midi Controller',
             description: "Creates virtual MIDI device and allows user to control it with a GUI.",
             image: 'https://github.com/AlexOConnorHub/Virtual_Midi_Controller/blob/master/images/main_screen.png?raw=true',
@@ -24,7 +33,7 @@ let render_projects = (slug) => {
             image: 'https://github.com/AlexOConnorHub/8-puzzle-search/blob/master/images/gui.png?raw=true',
             link: 'https://github.com/AlexOConnorHub/8-puzzle-search',
             technologies: ['Python', 'AI', 'Algorithms'],
-            categories: ['featured', 'other'],
+            categories: ['other'],
             demo: false,
         },
         {

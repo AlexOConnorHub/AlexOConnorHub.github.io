@@ -4,20 +4,13 @@ A simple and modern portfolio template that is lightweight, mobile responsive an
 
 - [Portfolio](#portfolio)
   - [Demo](#demo)
-  - [Screenshots](#screenshots)
   - [Features](#features)
   - [Installation](#installation)
   - [License](#license)
 
 ## Demo
 
-[AlexOConnor.us](https://AlexOConnor.us)
-
-## Screenshots
-
-From [abhn's portfolio sample](https://github.com/abhn/portfolio)
-
-![homepage](tmp/screenshot.jpg?raw=true "Homepage")
+[AlexanderOC.com](https://AlexanderOC.com)
 
 ## Features
 
